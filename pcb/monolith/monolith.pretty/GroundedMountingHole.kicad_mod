@@ -1,0 +1,196 @@
+(footprint "GroundedMountingHole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.2mm, M2, DIN965")
+	(tags "mounting hole 2.2mm m2 din965")
+	(property "Reference" "REF**"
+		(at 0 -2.9 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b04b8a31-ce2d-486e-876a-6e7e2fc2ce1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GroundedMountingHole"
+		(at 0 2.9 0)
+		(layer "F.Fab")
+		(uuid "7c9f368b-132a-48df-9ae8-20413991b5d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f88b63e8-450b-4272-9c82-11e344fba67e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cd8f6b6-3f51-4b0c-9a05-280cfef58e9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82bb3154-d81e-428e-ac24-58a39c93ec85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center -1.299038 -0.75)
+		(end -0.999038 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "cb9e1ec8-bd86-4b8f-b708-146217fa7aa6")
+	)
+	(fp_circle
+		(center -1.299038 0.75)
+		(end -0.999038 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "0363de7c-ec62-4247-80ca-efbea8145aaa")
+	)
+	(fp_circle
+		(center 0 -1.5)
+		(end 0.3 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "a02a77b4-1f2e-4dd3-a4ff-6ec7190fde2f")
+	)
+	(fp_circle
+		(center 0 1.5)
+		(end 0.3 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "5c37187d-4b52-46d4-995c-ddb29d69afdb")
+	)
+	(fp_circle
+		(center 1.299038 -0.75)
+		(end 1.599038 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "9cefe998-834c-40dc-9f6b-f31bfa09b82d")
+	)
+	(fp_circle
+		(center 1.299038 0.75)
+		(end 1.599038 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "4dfb0e16-54e4-4bd1-a94b-042fd9c59add")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "71ee505a-f11f-4f8a-94b5-8724b3fac28e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Eco1.User")
+		(uuid "41dad871-4847-4737-a008-15352e37469e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "00573a88-cc1e-45fd-83d5-442fcb93fb0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 1.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "949f2f2f-e88f-4142-aed0-64c4cb342c9d")
+	)
+	(pad "1" smd custom
+		(at 1.55 0)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 0)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center -1.55 0)
+				(end 0 0)
+				(width 0.9)
+				(fill no)
+			)
+		)
+		(uuid "46e261c9-c6b9-4d6d-aa00-187a23acb7e1")
+	)
+)
